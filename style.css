@@ -1,0 +1,31 @@
+/* Normalization */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+
+.nav-fix{
+    width: 100%;
+    height: fit-content;
+    padding: 2rem 0;
+    background: red;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-item{
+    display: flex;
+}
+
+.container-item img{
+    width: 20px;
+    height: auto;
+}
